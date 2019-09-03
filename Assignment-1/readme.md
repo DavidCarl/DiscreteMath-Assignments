@@ -7,13 +7,13 @@
 I made the different gates with NAND gates as the assignment told us to do,
 
 This is the and gate
-![Alt text](./andGate.png "andgate")
+![And Gate](./andGate.PNG "andgate")
 
 this is the or gate
-![Alt text](./orGate.png "orgate")
+![Alt text](./orGate.PNG "orgate")
 
 this is the xor gate
-![Alt text](./xorGate.png "xorgate")
+![Alt text](./xorGate.PNG "xorgate")
 
 this is the imply gate
-![Alt text](./implyGate.png "implygate")
+![Alt text](./implyGate.PNG "implygate")
