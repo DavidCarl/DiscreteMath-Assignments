@@ -26,8 +26,7 @@ class setHandler():
         return S1.difference(S2)
 
     def complement(self, S1, S2):
-        pass
-        #return S1.complement(S2)
+        return S1 - S2 
 
     def subset(self, S1, S2):
         return subsetHandler.compare(S1, S2)
