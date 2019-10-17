@@ -1,0 +1,7 @@
+DEF Y: INTEGER;
+DEF X: INTEGER;
+DEF A: BOOLEAN;
+
+if(A){
+    Y = 10
+}
