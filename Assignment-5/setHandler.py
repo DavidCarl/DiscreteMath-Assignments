@@ -1,3 +1,6 @@
+import subset as subsetHandler
+
+
 class setHandler():
 
     def __init__(self):
@@ -17,10 +20,15 @@ class setHandler():
     # This is the Intersection method
     # S1 and S2 is the 2 sets you wanna check against each other.
     def union(self, S1, S2):
-        pass
+        return S1.union(S2)
 
-    def difference(self, a, S):
-        pass
+    def difference(self, S1, S2):
+        return S1.difference(S2)
 
-    def complement(self, a, S):
+    def complement(self, S1, S2):
         pass
+        #return S1.complement(S2)
+
+    def subset(self, S1, S2):
+        return subsetHandler.compare(S1, S2)
+        #return 'Yet to be implemented! Should be on T430'        
