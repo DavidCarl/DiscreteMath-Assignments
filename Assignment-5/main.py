@@ -11,9 +11,5 @@ def main():
     print(handler.complement(set([1,2,3,5]), set([2,3,4])))
     print(handler.subset(set([1,2,3]), set([2,3])))
 
-
-
-
-
 if __name__ == "__main__":
     main()

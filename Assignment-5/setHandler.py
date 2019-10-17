@@ -29,5 +29,4 @@ class setHandler():
         return S1 - S2 
 
     def subset(self, S1, S2):
-        return subsetHandler.compare(S1, S2)
-        #return 'Yet to be implemented! Should be on T430'        
+        return subsetHandler.compare(S1, S2)     
