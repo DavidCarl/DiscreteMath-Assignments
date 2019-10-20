@@ -1,9 +1,9 @@
-DEF X: Integer;
-
+DEF Y: INTEGER
+DEF X: INTEGER
 IF (Y < 10) {
     LET X = 100
-    }
+}
 LET Y = Y + 10
-IF (Y >= 20) {
+IF (Y >= 10) {
     LET X = 4711
 }
